@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mhentor — Developer</title>
+    <meta
+      name="description"
+      content="Mhentor — a curious developer crafting thoughtful digital experiences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=8" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="grain" aria-hidden="true"></div>
+
+      <div class="code-bg" aria-hidden="true">
+        <div class="code-col code-col-1">
+          <div class="code-track">
+            <pre class="code-block">const scene = createHero();
+await scene.preload();
+scene.mount("#stage");
+
+function ease(t) {
+  return t * t * (3 - 2 * t);
+}
+
+const pulse = lerp(0.96, 1.04, ease(n));
+jellyfish.scale.set(pulse);
+
+requestAnimationFrame(tick);
+export default scene;</pre>
+            <pre class="code-block">const scene = createHero();
+await scene.preload();
+scene.mount("#stage");
+
+function ease(t) {
+  return t * t * (3 - 2 * t);
+}
+
+const pulse = lerp(0.96, 1.04, ease(n));
+jellyfish.scale.set(pulse);
+
+requestAnimationFrame(tick);
+export default scene;</pre>
+          </div>
+        </div>
+
+        <div class="code-col code-col-2">
+          <div class="code-track">
+            <pre class="code-block">type Token = {
+  id: string;
+  opacity: number;
+};
+
+const tokens = await loadTokens();
+tokens.filter((t) => t.opacity > 0.1);
+
+for (const line of buffer) {
+  render(line.trim());
+}
+
+return tokens.map(shade);</pre>
+            <pre class="code-block">type Token = {
+  id: string;
+  opacity: number;
+};
+
+const tokens = await loadTokens();
+tokens.filter((t) => t.opacity > 0.1);
+
+for (const line of buffer) {
+  render(line.trim());
+}
+
+return tokens.map(shade);</pre>
+          </div>
+        </div>
+
+        <div class="code-col code-col-3">
+          <div class="code-track">
+            <pre class="code-block">@media (prefers-reduced-motion) {
+  .drift { animation: none; }
+}
+
+.hero {
+  display: grid;
+  place-items: center;
+}
+
+mask-image: linear-gradient(
+  transparent, black 12%, black 88%, transparent
+);</pre>
+            <pre class="code-block">@media (prefers-reduced-motion) {
+  .drift { animation: none; }
+}
+
+.hero {
+  display: grid;
+  place-items: center;
+}
+
+mask-image: linear-gradient(
+  transparent, black 12%, black 88%, transparent
+);</pre>
+          </div>
+        </div>
+
+        <div class="code-col code-col-4">
+          <div class="code-track">
+            <pre class="code-block">git checkout -b feature/hero
+npm run build -- --quiet
+
+fn paint(ctx: &mut Canvas) {
+  ctx.clear();
+  ctx.draw(&mark);
+}
+
+assert!(ready);
+println!("ok");</pre>
+            <pre class="code-block">git checkout -b feature/hero
+npm run build -- --quiet
+
+fn paint(ctx: &mut Canvas) {
+  ctx.clear();
+  ctx.draw(&mark);
+}
+
+assert!(ready);
+println!("ok");</pre>
+          </div>
+        </div>
+      </div>
+
+      <header class="top">
+        <a class="brand" href="#main">Mhentor</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <span class="nav-sep" aria-hidden="true">·</span>
+          <a href="#work">Work</a>
+          <span class="nav-sep" aria-hidden="true">·</span>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="main" class="stage">
+        <h1 class="headline" aria-label="MHENTOR">
+          <span class="headline-letters" aria-hidden="true">
+            <span class="letter" style="--i: 0"><span class="glyph">M</span></span>
+            <span class="letter" style="--i: 1"><span class="glyph">H</span></span>
+            <span class="letter" style="--i: 2"><span class="glyph">E</span></span>
+            <span class="letter" style="--i: 3"><span class="glyph">N</span></span>
+            <span class="letter" style="--i: 4"><span class="glyph">T</span></span>
+            <span class="letter" style="--i: 5"><span class="glyph">O</span></span>
+            <span class="letter" style="--i: 6"><span class="glyph">R</span></span>
+          </span>
+        </h1>
+
+        <div class="jellyfish-wrap" aria-hidden="true">
+          <img
+            class="jellyfish"
+            src="assets/jellyfish.png"
+            alt=""
+            width="544"
+            height="1022"
+            decoding="async"
+            draggable="false"
+          />
+        </div>
+
+        <span class="shard s1" aria-hidden="true"></span>
+        <span class="shard s2" aria-hidden="true"></span>
+        <span class="shard s3" aria-hidden="true"></span>
+        <span class="shard s4" aria-hidden="true"></span>
+        <span class="shard s5" aria-hidden="true"></span>
+      </main>
+
+      <footer class="footer">
+        <p>A curious developer crafting thoughtful digital experiences.</p>
+      </footer>
+    </div>
+    <script src="fit-wordmark.js?v=8"></script>
+  </body>
+</html>
